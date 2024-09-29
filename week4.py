@@ -54,7 +54,7 @@ def getShape():
 	'''
 	#SOLUTION START( ~ 1 line of code)
 	shape = df.shape
-
+	return shape
 	#SOLUTION END
 
 print(getShape())
@@ -68,7 +68,7 @@ def getInfo():
 	#SOLUTION START( ~ 1 line of code)
 	info = df.info()
 
-
+	return info
 	#SOLUTION END
 
 print(getInfo())
@@ -107,7 +107,7 @@ def getStatistic():
 	#SOLUTION START( ~ 1 line of code)
 	statistics = df.describe()
 	#SOLUTION END
-
+	return statistics
 print(getStatistic())
 
 
