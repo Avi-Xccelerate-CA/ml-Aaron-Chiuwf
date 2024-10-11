@@ -92,7 +92,7 @@ def checkNull():
 	#SOLUTION START( ~ 1 line of code)
 	null_counts = df.isnull().sum()
 
-
+	return null_counts
 	#SOLUTION END
 
 
