@@ -130,9 +130,11 @@ def split():
 	'''
 	#SOLUTION START( ~ 1-2 line of code)
 	X_train, X_test, y_train, y_test = train_test_split(df_X, df_y, test_size=0.2, random_state=42)
+	return (X_train, X_test, y_train, y_test)
 	#SOLUTION END
 
 X_train, X_test, y_train, y_test = split()
+
 
 
 #Question 9
