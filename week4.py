@@ -147,7 +147,7 @@ def makeModel():
 
 	# Create linear regression object
 	#SOLUTION START(~ 1 line of code)
-	model = LinearRegression()
+	model = linear_model.LinearRegression()
 
 	#SOLUTION END
 
